@@ -13,9 +13,9 @@ jobs:
           run: npm install
         - name: Test
           env:
-            BROWSERSTACK_USER: ${{secrets.BS_USER}}
-            BROWSERSTACK_KEY: ${{secrets.BS_USER}}
-          run: npx wdio config/wdio.bs.config.ts
+            BROWSERSTACK_USER: ${{ secrets.BS_USER }}
+            BROWSERSTACK_KEY: ${{ secrets.BS_USER }}
+          run: npx wdio config/wdio.bs.config.ts --spec /test/specs/
         - uses: actions/upload-artifact@v1
           if: failure()
           with:
