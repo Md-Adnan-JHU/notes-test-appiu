@@ -17,12 +17,14 @@
     "typescript": "^5.5.2"
   },
   "scripts": {
-    "test": "wdio run ./wdio.conf.ts",
+    "test-bs": "wdio run ./config/wdio-bs.conf.ts",
+    "test-local": "wdio run ./config/wdio-local.conf.ts",
     "lint": "eslint . --ext .js,.ts",
     "wdio:build": "tsc -p tsconfig.json"
   },
   "dependencies": {
-    "appium": "^2.10.3",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "appium": "^2.10.3"
+
   }
 }

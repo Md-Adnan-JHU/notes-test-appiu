@@ -25,8 +25,8 @@
     },
     "include": [
         "test",
-        "wdio.conf.ts",
-        "**/*.ts"
+        "wdio.bs.conf.ts",
+        "**/*.ts",
     ],
     "exclude": [
         "node_modules",
