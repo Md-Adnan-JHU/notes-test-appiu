@@ -17,8 +17,8 @@
     "typescript": "^5.5.2"
   },
   "scripts": {
-    "test-bs": "wdio run ./config/wdio-bs.conf.ts",
-    "test-local": "wdio run ./config/wdio-local.conf.ts",
+    "test-bs": "wdio run ./config/wdio.bs.conf.ts",
+    "test-local": "wdio run ./config/wdio.local.conf.ts",
     "lint": "eslint . --ext .js,.ts",
     "wdio:build": "tsc -p tsconfig.json"
   },
