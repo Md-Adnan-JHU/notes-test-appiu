@@ -2,4 +2,5 @@
 browserstack.err
 local.log
 wdio-appium.log
-node_modules/
+/node_modules
+/log/*
