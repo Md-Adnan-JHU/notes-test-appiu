@@ -1,3 +1,4 @@
+import '../polyfill';
 import {config}  from './wdio.shared.conf';
 
 // ============

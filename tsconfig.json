@@ -2,7 +2,7 @@
     "compilerOptions": {
         "moduleResolution": "node",
         "module": "CommonJS",
-        "target": "ES6",
+        "target": "ES2022",
         "lib": [
             "es2022",
             "dom"
