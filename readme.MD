@@ -1,1 +1,4 @@
-Run on Browserstack : npm run test-bs
+Run on Browserstack : 
+> add BS credentials to .env file
+> npm ci
+> npm run test-bs
