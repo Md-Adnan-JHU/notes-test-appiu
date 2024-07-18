@@ -1,7 +1,3 @@
-import '../../polyfill';
-
-
-
 import  { EditNoteScreen }  from "../screenObject/edit-note.screen";
 
 

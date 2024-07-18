@@ -1,5 +1,3 @@
-import '../../polyfill';
-
 import  { AddNoteScreen }  from "../screenObject/add-note.screen";
 
 describe('Add Notes', () => {
