@@ -1,0 +1,1 @@
+Run on Browserstack : npm run test-bs
